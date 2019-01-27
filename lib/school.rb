@@ -20,11 +20,8 @@ class School
   
   def sort
     keys = @roster.keys.sort
-    str = "{"
     keys.each do |x|
-      str += "#{x}=>#{@roster[x].sort}"
+      puts @roster[x].sort
     end
-    str += "}"
-    str
   end
 end
