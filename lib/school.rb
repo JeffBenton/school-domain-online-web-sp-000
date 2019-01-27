@@ -20,6 +20,9 @@ class School
   
   def sort
     temp = {}
-    @roster.
+    @roster.each_pair do |grade, students|
+      temp[grade] = students.sort
+    end
+    temp
   end
 end
