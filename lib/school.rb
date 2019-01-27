@@ -19,9 +19,7 @@ class School
   end
   
   def sort
-    keys = @roster.keys.sort
-    keys.each do |x|
-      puts @roster[x].sort
-    end
+    temp = {}
+    @roster.
   end
 end
